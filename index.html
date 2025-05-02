@@ -1,3 +1,127 @@
-terve!
-hi!
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Olena Kibysh</title>
+    <style>
+         img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        border:5px solid rgb(86, 29, 61) ;
+        margin: 20px;
+     }
+     .mina {
+        display: flex;
+        align-items: center;
+        margin: 40px auto;
+        padding: 20px;
+     }
+     .mina-text {
+        max-width: 500px;
+        margin: 20px;
+        text-align: left;
+     }
+     body {
+        font-family: Arial, sans serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+     }
+     header {
+        background-color: rgb(243, 145, 145);
+        color: white;
+        padding: 40 px, 20px;
+        text-align: center;
+     }
+     nav {
+        padding: 10px, 0;
+        background-color: rgb(247, 139, 218);
+        text-align: center;
+     }
+     nav a {
+        color: rgb(255, 255, 255);
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        
+     }
+     nav a:hover {
+        text-decoration: underline;
+     }
+     section {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgb(146, 53, 53);
+     }
+    
+    
+    </style>
+</head>
+<body>
+    <header>
 
+        <!--Otsikko-->
+        <h1>Olena Kibysh</h1>
+        <p>Web-kehittäjä | Opiskelija | Ratkaisija | Yrittäjä</p>
+        <nav>
+            <!--navigointi #koulutus hypätän kohtaa koulutus samalla sivulla-->
+            <a href="#mina">Tietoa minusta</a>
+            <a href="#taidot">Taidot</a>
+            <a href="#työkokemus">Työkokemus</a>
+           <a href="#koulutus">Koulutus</a>
+           <!--esim yhteistieto lomake-->
+           <a href="#yhteistiedot.html">Yhteistiedot</a>
+           <!--Sivulla kerrot mitä olet tehnyt-->
+           <a href="#työnäytteet.html">Työnäytteet</a>
+        </nav>
+
+    </header>
+
+    <!--Uusi rivi-->
+      <section class="mina">
+        <!--Tietoa minusta-->
+        <img src="Omakuva.png" alt="Olena Kibysh">
+        <h2>Tietoja minusta</h2>
+        <p> Olen Olena Kibysh. Olen opiskelja Sovan Ammatti Opistossa.
+        <br> Tykkän kissoja ja orchidejat. Olen rauhallinen a ystävällinen ihminen.
+        <br> Asun Suomessa 6 vuotta jo.
+        </p>
+      </section>
+      
+<!--Uusi rivi-->
+    <section id="taidot">
+        <h2>Taidot</h2>
+        <ul>
+            <li>HTML, C#</li>
+            <li>Opiskelija</li>
+            <li>Tiimityö</li>
+            <li>Muistiinpannot reader</li>
+        </ul>
+    </section>
+
+<!--Uusi rivi-->
+    <section id="työkokemus">
+        <h2>Työkokemus</h2>
+        <ul>
+            <li><strong>Ei ole työkokemusta</strong></li>
+            <li>Haluan oppia uudet asiat</li>
+        </ul>
+    </section>
+
+    <!--Uusi rivi-->
+<section id="koulutus">
+    <h2>Koulutus</h2>
+    <ul>
+        <li>Peruskoulu</li>
+        <li>Savon Ammattiopisto <strong>2023-2025v.</strong></li>
+    </ul>
+</section>
+</body>
+</html>
